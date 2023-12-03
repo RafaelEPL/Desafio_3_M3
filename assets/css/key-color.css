@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: #efefef;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* flex-direction: column; */
+}
+
+#key, #key2 {
+  width: 200px;
+  height: 200px;
+  background-color: #FFF;
+  border: solid 3px #000;
+}
